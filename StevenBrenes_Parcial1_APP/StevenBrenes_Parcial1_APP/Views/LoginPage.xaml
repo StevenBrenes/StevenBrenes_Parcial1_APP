@@ -9,8 +9,8 @@
              BackgroundImageSource="Background.jpg">
     <ContentPage.Content>
         <StackLayout Padding="50,0,50,0" VerticalOptions="Center">
-            <Entry x:Name="TxtUserName" TextTransform="Lowercase" Placeholder="Email" FontSize="Large" TextColor="Black" Keyboard="Email"/>
-            <Entry x:Name="TxtPassword" IsPassword="True" Placeholder="Password" FontSize="Large" TextColor="Black"/>
+            <Entry x:Name="TxtUserName" TextTransform="Lowercase" Placeholder="Email" FontSize="Large" TextColor="Black" Keyboard="Email" PlaceholderColor="DarkGray"/>
+            <Entry x:Name="TxtPassword" IsPassword="True" Placeholder="Password" FontSize="Large" TextColor="Black" PlaceholderColor="DarkGray"/>
 
             <Switch x:Name="SwSeePassword" IsToggled="False" Toggled="CmdSeePassword" />
 
