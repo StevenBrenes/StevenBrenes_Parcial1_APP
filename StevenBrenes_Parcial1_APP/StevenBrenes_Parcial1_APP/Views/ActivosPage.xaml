@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StevenBrenes_Parcial1_APP.Views.ActivosPage"
+             BackgroundImageSource="Background.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Lista de Activos"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="Blue"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

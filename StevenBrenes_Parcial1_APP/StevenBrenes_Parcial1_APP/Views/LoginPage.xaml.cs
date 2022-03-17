@@ -17,5 +17,24 @@ namespace StevenBrenes_Parcial1_APP.Views
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
         }
+
+        public void CmdSeePassword(object sender, ToggledEventArgs e)
+        {
+            if (SwSeePassword.IsToggled)
+            {
+                TxtPassword.IsPassword = false;
+            }
+            else
+            {
+                TxtPassword.IsPassword = true;
+            }
+        }
+
+        private async void CmdUserLogin(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ActivosPage());
+        }
+
+
     }
 }

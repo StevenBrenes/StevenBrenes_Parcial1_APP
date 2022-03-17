@@ -142,4 +142,7 @@
       <Name>StevenBrenes_Parcial1_APP</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\background.jpg" />
+  </ItemGroup>
 </Project>
