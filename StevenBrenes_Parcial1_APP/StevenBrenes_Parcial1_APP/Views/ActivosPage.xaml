@@ -4,12 +4,14 @@
              x:Class="StevenBrenes_Parcial1_APP.Views.ActivosPage"
              BackgroundImageSource="Background.jpg">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="50,0,50,0" VerticalOptions="Center">
             <Label Text="Lista de Activos"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                    TextColor="Blue"
                    FontSize="Title"/>
+            <Button x:Name="BtnGuardar" VerticalOptions="Center" Text="Guardar" FontSize="Large" CornerRadius="10" BackgroundColor="CadetBlue" Clicked="CmdActivoGuardar"/>
+            <Button x:Name="BtnCancelar" VerticalOptions="Center" Text="Cancelar" FontSize="Large" CornerRadius="10" BackgroundColor="Red" Clicked="CmdActivoCancelar"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

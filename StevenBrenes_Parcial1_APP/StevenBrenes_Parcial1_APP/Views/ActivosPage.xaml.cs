@@ -16,5 +16,15 @@ namespace StevenBrenes_Parcial1_APP.Views
         {
             InitializeComponent();
         }
+
+        private async void CmdActivoGuardar(object sender, EventArgs e)
+        {
+            
+        }
+
+        private async void CmdActivoCancelar(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
     }
 }
