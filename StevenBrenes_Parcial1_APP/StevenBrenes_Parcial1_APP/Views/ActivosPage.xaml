@@ -8,7 +8,8 @@
             <Label Text="Lista de Activos"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                   TextColor="Blue"/>
+                   TextColor="Blue"
+                   FontSize="Title"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
